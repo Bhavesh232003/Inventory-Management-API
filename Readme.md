@@ -77,11 +77,8 @@ src/main/java/com/Inventory\_Management\_API/Inventory\_API/
 └── Exception/
 
     ├── GlobalExceptionHandler.java
-
     ├── CategoryNotFoundException.java
-
     ├── ProductNotFoundException.java
-
     └── DuplicateNameException.java
 
 ## **Setup Instructions**
@@ -114,6 +111,7 @@ spring.h2.console.enabled=true
 
 spring.jpa.hibernate.ddl-auto=update
 
+
 \# For Mysql setup using Workbench
 
 spring.application.name=Inventory\_API
@@ -131,6 +129,9 @@ spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 spring.jpa.hibernate.ddl-auto=update
 
 spring.jpa.show-sql=true
+
+
+for production use invironment variables instead of using direct url and password
 
 **Build the project :** mvn clean install
 

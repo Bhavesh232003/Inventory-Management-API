@@ -815,11 +815,10 @@ Key dependencies used in `pom.xml`:
 	\<artifactId\>mysql-connector-j\</artifactId\>
 
 	\<scope\>runtime\</scope\>
-
+	
 \<dependency\>
 
-    \<\!-- Lombok \-\>
-
+    \<\!-- Lombok For Reducing Boilerplate code \-\> 
     \<dependency\>
 
         \<groupId\>org.projectlombok\</groupId\>
